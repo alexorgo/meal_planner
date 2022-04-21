@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  background-color: #282c34;
+}
+
+.center{
+  text-align: center;
+}
+
+.bgd{
+  background-color: #282c34;
+}
+
+.contenedorQuery {
+  background-color: black;
+  position: absolute;
+  left: 25%;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  top: 32.5%;
+  z-index: 34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorResult{
+  background-color: black;
+  position: absolute;
+  left: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 50%;
+  height: 90%;
+  bottom: 5%;
+  top: 5%;
+  z-index: 34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenidoQuery{
+  position: absolute;
+  background-color: blanchedalmond;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: left;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenidoHelper{
+  float:inline-start;
+}
+
+.btn{
+  width: 15px;
+  height: 7px;
+  background-color: black;
+  z-index: 2;
+}
+
+.contenidoResult{
+  position: absolute;
+  background-color: blanchedalmond;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
